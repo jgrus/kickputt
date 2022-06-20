@@ -2,6 +2,19 @@
 name = "kickputt"
 version = "0.1.0"
 edition = "2021"
+license = "GPL-3.0-only"
+repository = "https://github.com/jgrus/kickputt.git"
+publish = true
+
+[lib]
+name = "libkickputt"
+path = "src/lib.rs"
+crate-type = ["lib"]
+
+[[bin]]
+name = "kickputt"
+path = "src/bin.rs"
+
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
