@@ -4,6 +4,9 @@ version = "0.1.0"
 edition = "2021"
 license = "GPL-3.0-only"
 repository = "https://github.com/jgrus/kickputt.git"
+homepage = "https://github.com/jgrus/kickputt.git"
+readme = "README.md"
+description = "A CLI utility to organize and deduplicate large photo dumps in regular directories"
 publish = true
 
 [lib]
